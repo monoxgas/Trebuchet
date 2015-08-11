@@ -1,6 +1,6 @@
 # Trebuchet
-MS15-076 (CVE-2015-2370) Privilege Escalation
-Copies a file to any privileged location on disk
+#####MS15-076 (CVE-2015-2370) Privilege Escalation
+######Copies a file to any privileged location on disk
 
 Compiled with VS2015, precompiled exe in Binary directory
 
@@ -15,4 +15,3 @@ Notes:
  - Microsoft.VisualStudio.OLE.Inerop.dll must be in the same directory
  - Exploit can only be one once every 2-3 minutes. This is because RPC can be help up by LocalSystem
  - Tested on x64/x86 Windows 7/8.1
-
