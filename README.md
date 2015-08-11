@@ -1,7 +1,8 @@
 # Trebuchet
-MS15-076 Privilege Escalation
+MS15-076 (CVE-2015-2370) Privilege Escalation
 Copies a file to any privileged location on disk
 
+Compiled with VS2015, precompiled exe in Binary directory
 Usage: trebuchet.exe C:\Users\Bob\Evil.txt C:\Windows\System32\Evil.dll
 
 This is a lightly modified Proof of Concept by James Forshaw with Google, found here: https://code.google.com/p/google-security-research/issues/detail?id=325
